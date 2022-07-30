@@ -12,6 +12,24 @@
         padding: 25px;
         border-radius: 2px;
 
+        .meta {
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-top: 25px;
+
+            .category {
+                margin-right: 5px;
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .post-date {
+                margin-left: 5px;
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
         &:hover {
             box-shadow: 0 5px 20px #f0f0f0;
         }
